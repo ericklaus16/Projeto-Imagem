@@ -1,0 +1,97 @@
+body {
+    color: white;
+    margin: 0;
+    font-size: 18px;
+}
+
+.linksMenu {
+    background-color: #353535;
+    padding: 0;
+    width: 100%;
+    height: 4vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+a {
+    font-weight: bold;
+    padding-left: 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.anuncio {
+    background-color: #347aba;
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anuncio img {
+    width: 300px;
+    height: 250px;
+    margin-top: -40px;
+}
+
+.modelos {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.modelosFotos {
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    flex-direction: row;
+}
+
+.modelosFotos img {
+    margin-right: 30px;
+}
+
+
+.empresa{
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+    height: 4vh;
+    background-color: #347aba;
+    color: #313130;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    letter-spacing: 2.5px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h4 {
+    font-weight: bold;
+    margin-top: -20px;
+    letter-spacing: 1px;
+    max-width: 360px;
+}
+
+.accessButton {
+    background-color: #ffc001;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+    width: 15vw;
+    height: 6vh;
+    border-radius: 0.5rem;
+}
